@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./skybox/src/assets/contact.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <title>SKYBOX RADIO</title>
+</head>
+<header>
+    <nav class="navbar">
+        <div class="hamburger--container">
+            <div class="hamburger--line line--1"></div>
+            <div class="hamburger--line line--2"></div>
+            <div class="hamburger--line line--3"></div>
+        </div>
+
+        <ul class="ul--navlinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="product.html">Listen</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+</header>
+<body>
+<script>
+    function validateForm() {
+        var x = document.forms["form1"]["name"].value;
+        var y = document.forms["form1"]["email"].value;
+        if (x == "" && y == "") {
+          alert("Name and email must be filled out");
+          return false;
+        } else if (x == ""){
+            alert("Name must be filled out");
+            return false;
+        } else if (y == "") {
+            alert("Email must be filled out")
+            return false;
+        } else {
+            return true
+        }
+      }
+    </script>
+<h1><i class="fab fa-skyatlas"> SKYBOX</i></h1>
+    <div>
+    <img class="hero" alt="drums" src="./skybox/public/img/tunahan-gunkan-KjlYuYFIayo-unsplash.jpg">
+    </div>
+    <form name="form1" action="/submit.php" onsubmit="return validateForm()" method="POST" id="contact-form">
+        <div class="container1">
+            <h2>Contact Us</h2>
+            <p>Please fill out the form below to contact us</p>
+        
+                <div class="form-group">
+                    <label for="name">Full Name:</label>
+                    <input type="text" name="name" id="name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input type="text" name="email" id="email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message or Questions:</label>
+                    <textarea name="message" id="message"></textarea>
+                    <button type="submit" class="btn">Submit</button><br>
+                </div>
+        </div>
+    </form>
+
+    <div class="clr"></div>
+
+    <footer id="main-footer">
+        <p>SKYBOX RADIO &copy; 2020, All Rights Reserved</p>
+        <a target="_blank" rel="noopener" href="https://www.facebook.com/"><img class="social" src="https://en.facebookbrand.com/wp-content/uploads/2019/04/f_logo_RGB-Hex-Blue_512.png" alt="facebook logo"></a>
+        <a target="_blank" rel="noopener" href="https://www.instagram.com/"><img class="social" src="https://instagram-brand.com/wp-content/themes/ig-branding/assets/images/ig-logo-email.png" alt="instagram logo"></a>
+        <a target="_blank" rel="noopener" href="https://twitter.com/?lang=en"><img class="social" src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/twitter_circle_color-512.png" alt="twitter logo"></a>     
+    </footer>
+    <script src="./script.js"></script>
+</body>
+
+</html>

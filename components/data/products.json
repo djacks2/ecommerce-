@@ -1,0 +1,113 @@
+
+    [
+        {
+            "Name": "JACKBOYS",
+            "ProductID": "01",
+            "Price": "9.99",
+            "Description": "JackBoys is a compilation album by Jackboys and American rappr Travis Scott. Jackboys is a collective group of American rappers",
+            "ProductImage": "img/jackboys.png",
+            "Type":"upbeat",
+            "Cost": "low"
+        },
+        {
+            "Name": "MY TURN",
+            "ProductID": "02",
+            "Price": "9.99",
+            "Description": "My Turn is the second studio album by American rapper Lil Baby. It was released on February 28,2020 by Capital records. ",
+            "ProductImage": "img/myturn.png",
+            "Type":"mellow",
+            "Cost": "low"
+
+        },
+        {
+            "Name": "PTSD",
+            "ProductID": "03",
+            "Price": "10.99",
+            "Description": "PTSD is the third solo studio album by American rapper G Herbo. It was released on February 28,via AMchine Entertainment Group/Epic Records.",
+            "ProductImage": "img/ptsd.png",
+            "Type":"upbeat",
+            "Cost": "low"
+
+        },
+        {
+            "Name": "ETERNAL ATAKE",
+            "ProductID": "04",
+            "Price": "12.99",
+            "Description": "Eternal Atake is the second studio album by American rapper Lil Uzi Vert. It is the first since his 2017 studio album Luv Is Rage 2",
+            "ProductImage": "img/eternalatake.png",
+            "Type":"mellow",
+            "Cost": "medium"
+        },
+        {
+            "Name": "Funeral",
+            "ProductID": "05",
+            "Price": "14.99",
+            "Description": "Funeral is the thirteenth studio album by American rapper Lil Wayne. It was released by record labels Young Money Entertainment and Republic Records on January 31, 2020",
+            "ProductImage": "img/funeral.png",
+            "Type":"upbeat",
+            "Cost": "medium"
+        },
+        {
+            "Name": "444",
+            "ProductID": "06",
+            "Price": "14.99",
+            "Description": "4:44 is the thirteenth studio album by American Rapper Jay-Z. It was released on June 30, 2017 through Roc NAtion as an exclusve to Sprint and Tidal customers. The album is the first in a planned series of music exclusives from the Sprint-Tidal partnership.",
+            "ProductImage": "img/444.png",
+            "Type":"upbeat",
+            "Cost": "medium"
+        },
+        {
+            "Name": "GRADUATION",
+             "ProductID": "07",
+            "Price": "14.99",
+            "Description": "Graduation is the third studio album by American Rapper Kanye West, released on September 11, 2007 through Def Jams Recordings and Roc-A-Fella Records. Recording sessions took place during 2005 to 2007 at several studios in New York and Los Angeles.",
+            "ProductImage": "img/graduation.png",
+            "Type":"upbeat",
+            "Cost": "medium"
+    },
+    {
+        "Name": "MEET THE WOO",
+        "ProductID": "08",
+        "Price": "10.99",
+        "Description": "Meet the Woo is the debut mixtape by American rapper Pop Smoke. It was released by Victor Victor Worldwinde and republic Records on July 26, 2019",
+        "ProductImage": "img/meetthewoo.png",
+        "Type":"upbeat",
+        "Cost": "low"
+    },
+    {
+        "Name": "VICTORY LAP",
+        "ProductID": "09",
+        "Price": "19.99",
+        "Description": "Victory Lap is the only studio album by American rapper Nipsey Hussle. It was released on February 16,2018 through All Money In No Money Out and Atlantic Records",
+        "ProductImage": "img/victorylap.png",
+        "Type":"upbeat",
+        "Cost": "medium"
+    },
+    {
+        "Name": "YELLOW TAPE",
+        "ProductID": "10",
+        "Price": "10.99",
+        "Description": "After a few years under the mighty wing of rapper Young Dolph, Key Glock is ready to fly solo. And with Yellow Tape, an album devoid of the features we've come to spect from young artists' offerings, the Paper Route Empire protege does exactly that. ",
+        "ProductImage": "img/yellowtape.png",
+        "Type":"upbeat",
+        "Cost": "low"
+    },
+    {
+        "Name": "PLEASE EXCUSE ME...",
+        "ProductID": "11",
+        "Price": "10.99",
+        "Description": "Please Excuse Me for Being Antisocial is the ebut album by American rapper Roddy Rich, released by Atlantic on December 6, 2019",
+        "ProductImage": "img/roddyrich.png",
+        "Type":"mellow",
+        "Cost": "low"
+    },
+    {
+        "Name": "SCORPION",
+        "ProductID": "12",
+        "Price": "11.99",
+        "Description": "Scorpion is the fifth studio album by Canadian rapper Drake, it was released on June 29, 2018 by Cash Money Records, Republic Records, and Young Money Entertainment. Scorpion is a double album consiting of 25 tracks",
+        "ProductImage": "img/scorpion.png",
+        "Type":"mellow",
+        "Cost": "low"
+    }
+]

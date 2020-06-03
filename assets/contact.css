@@ -1,0 +1,169 @@
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    background: darkgrey;
+}
+.hero{
+    width:100%;
+    height: 500px;
+    object-fit:  cover;
+    object-position: center;
+    padding: 10px;
+
+    
+}
+
+.container1 {
+    margin: 0 200px;
+    padding: 20px;
+    background-color:lightblue;
+    border: solid;
+}
+header{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+nav{
+    background-color:teal;
+}
+
+
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        width: 300px;
+        height: 100%;
+        position:fixed;
+        top: 0;
+        right: -300px;
+        margin: 0;
+        border-top-left-radius: 8em;
+        border-bottom-left-radius: 8em;
+    }
+    .change{
+        right: 0;
+    }
+    
+    .change .line--1{
+        transform: rotateZ(-405deg) translate(-11px, 9px);
+    }
+    .change .line--2{
+        opacity: 0;
+    }
+    .change .line--3{
+        transform: rotateZ(405deg) translate(-10px, -8px);
+    }
+    
+    .change .hamburger--container{
+        background-color: transparent;
+        transition: ease-in-out .5s;
+    }
+    
+    
+    .logo{
+        height: 100px;
+        margin: 30px;
+    }
+    .hamburger--container{
+        position:fixed;
+        background-color: white;
+        width: 40px;
+        height: 40px;
+        top: 40px;
+        right: 50px;
+        padding: 15px;
+        border-radius: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .hamburger--line{
+        background-color: red;
+        width: 100%;
+        height: 5px;
+    }
+    
+    .ul--navlinks li{
+        margin: 50px;
+        text-align: center;
+    
+    }
+    .ul--navlinks li a {
+        color: white;
+        font-size: 1.2rem;
+        text-decoration: none;
+        text-transform: uppercase ;
+    }
+
+ h1{
+     text-align: center;
+     color: teal;
+ }
+h2{
+text-align: center;
+color: teal;
+
+}
+p{
+    text-align: center;
+}
+.btn {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    background: green;
+    padding: 13px 20px;
+border-radius: 1.3em;
+    margin-bottom: 100px;
+}
+
+.btn:hover {
+    background: rgb(132, 139, 127);
+    color: #333;
+}
+/* Contact Form */
+#contact-form .form-group {
+    margin-bottom: 0px;
+}
+#contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px #ddd solid;
+}
+#contact-form textarea {
+    height: 200px;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+    outline: none;
+    border-color: #ACDF87;
+}
+#main-footer {
+    text-align: center;
+    background:teal;
+    color: #fff;
+    padding: 20px;
+}
+.social {
+    width: 75px;
+    margin-top: 20px;
+}
+

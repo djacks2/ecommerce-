@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SKYBOX RADIO</title>
+    <link rel="stylesheet" type="text/css" href="./skybox/src/assets/home.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+</head>
+
+<body>
+   <script>
+        var i = 0;
+        var images = [];
+        var time = 3000;        
+       
+       
+       images[0]= src="./skybox/public/img/lilbaby.png"  
+       images[1]= src="./skybox/public/img/headphones.jpg";
+       images[2]= src="./skybox/public/img/microphone.jpg";
+       images[3]= src="./skybox/public/img/studio.jpg";
+        
+
+
+        // Change Image//
+        function changeImg(){
+            document.slide.src = images[i];
+
+            if (i < images.length - 1){
+                i++;
+            } else {
+                i = 0;
+            }
+         
+        setTimeout("changeImg()", time);
+        }
+        
+        window.onload = changeImg;
+
+    </script>
+    <header>
+      
+
+                <nav class="navbar">
+                    <div class="hamburger--container">
+                        <div class="hamburger--line line--1"></div>
+                        <div class="hamburger--line line--2"></div>
+                        <div class="hamburger--line line--3"></div>
+                    </div>
+    
+                    <ul class="ul--navlinks">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="product.html">Listen</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+       
+       
+       
+    </header>
+    <h1><i class="fab fa-skyatlas"> SKYBOX</i></h1>
+    <div class="container">
+    <img  class="slideshow" name="slide" width="500" height="500" alt="lilbay, headphones, mic, DJ Booth">
+   
+</div>
+
+<div>
+<img  class="pictures" src="./skybox/public/img/travis.png" alt="travis scott">
+<img  class="pictures" src="./skybox/public/img/kanye.png" alt="kanye">
+<img  class="pictures" src="./skybox/public/img/popsmoke.png" alt="popsmoke">
+<img  class="pictures" src="./skybox/public/img/lilwayne.png" alt="lilwayne">
+<img  class="pictures" src="./skybox/public/img/jayz.png" alt="jayz">
+<img  class="pictures" src="./skybox/public/img/uzi.png" alt="liluzi">
+</div>
+
+
+<div class="clr"></div>
+
+
+
+    <footer id="main-footer">
+        <p>SKYBOX &copy; 2020, All Rights Reserved</p>
+        <a target="_blank" rel="noopener" href="https://www.facebook.com/"><img class="social" src="https://en.facebookbrand.com/wp-content/uploads/2019/04/f_logo_RGB-Hex-Blue_512.png" alt="facebook logo"></a>
+        <a target="_blank" rel="noopener" href="https://www.instagram.com/"><img class="social" src="https://instagram-brand.com/wp-content/themes/ig-branding/assets/images/ig-logo-email.png" alt="instagram logo"></a>
+        <a target="_blank" rel="noopener" href="https://twitter.com/?lang=en"><img class="social" src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/twitter_circle_color-512.png" alt="twitter logo"></a>     
+    </footer>
+
+
+    
+    <script src="./script.js"></script>
+</body>
+
+</html>
